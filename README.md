@@ -8,3 +8,14 @@
 - Utilizes ResNet18, ResNet50, ResNet101, and MobileNetV2/V3 backbones.
 - Predicts facial landmarks with a configurable pipeline.
 - Automatically downloads necessary resources if missing.
+
+## Usage
+### Install
+```bash
+pip install pipnet
+```
+
+### Run
+```python
+from pipnet import LandmarkPredictor
+```
