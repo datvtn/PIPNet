@@ -1,3 +1,3 @@
-include PIPNet/lib/*
-include PIPNet/experiments/**/*
-include PIPNet/pipnet/data/**/*
+include PIPNet/lib/*.py
+include PIPNet/experiments/**/*.py
+include PIPNet/pipnet/data/**/*.txt
