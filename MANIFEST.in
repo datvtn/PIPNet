@@ -1,3 +1,4 @@
-include PIPNet/lib/*.py
-include PIPNet/experiments/**/*.py
-include PIPNet/pipnet/data/**/*.txt
+include lib/*.py  # Include all Python files in lib
+include experiments/**/*.py  # Include all Python files in experiments and its subdirectories
+include pipnet/data/**/*.txt  # Include all meanface.txt files from data subdirectories
+
