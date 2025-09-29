@@ -8,9 +8,9 @@ setup(
     install_requires=[
         'torch',
         'torchvision',
-        'opencv-python==4.10.0.84',
-        'numpy==1.24.3',
-        'Pillow==10.4.0',
+        'opencv-python',
+        'numpy==1.26.4',
+        'Pillow',
     ],
     description='A package for PIPNet - landmark prediction using ResNet and MobileNet models',
     author='Dat Viet Thanh Nguyen',
